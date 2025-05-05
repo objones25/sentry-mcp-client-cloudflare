@@ -1,0 +1,12 @@
+name = "mcp-client-sentry"
+main = "src/index.ts"
+compatibility_date = "2024-05-02"
+
+[dev]
+port = 8978
+
+# KV Namespace for OAuth storage
+[[kv_namespaces]]
+binding = "OAUTH_STORAGE"
+id = "592a6c4cf24547fa9b7e9a751b2e836f"
+preview_id = "592a6c4cf24547fa9b7e9a751b2e836f"
