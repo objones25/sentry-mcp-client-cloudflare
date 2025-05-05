@@ -17,7 +17,7 @@ globalThis.fetch = function patchedFetch(input: RequestInfo | URL, init?: Reques
 
 // Define environment interface
 interface Env {
-  OAUTH_STORAGE: KVNamespace;
+  
 }
 
 // Define the necessary OAuth types for our implementation
